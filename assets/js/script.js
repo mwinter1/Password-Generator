@@ -1,4 +1,12 @@
-// Assignment Code
+init();
+
+let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let lower = "abcdefghijklmnopqrstuvwxyz";
+let num = "1234567890";
+let special = "!@#$%^&*()";
+
+let init = window.alert("Welcome to the random password generator!");
+
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
